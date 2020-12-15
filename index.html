@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Suicher</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h2 class="text">Select a color to change background color</h2>
+        <input type="button" style="background: #f64c72" onclick="color1()">
+        <input type="button" style="background: #659dbd" onclick="color2()">
+        <input type="button" style="background: #daad86" onclick="color3()">
+        <input type="button" style="background: #05386b" onclick="color4()">
+        <input type="button" style="background: #501b1d" onclick="color5()">
+        <input type="button" style="background: #808080" onclick="color6()">
+
+        <h2 class="text">or select from dropdown</h2>
+        <select id="select" onClick="changeColor();">
+            <option>Select</option>
+            <option style="background-color: #f64c72;">#f64c72</option>
+            <option style="background-color: #659dbd;">#659dbd</option>
+            <option style="background-color: #daad86;">#daad86</option>
+            <option style="background-color: #05386b;">#05386b</option>
+            <option style="background-color: #501b1d;">#501b1d</option>
+            <option style="background-color: #808080;">#808080</option>
+        </select>
+    </div>
+
+</body>
+
+</html>
